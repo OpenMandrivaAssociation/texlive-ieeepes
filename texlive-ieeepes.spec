@@ -1,3 +1,9 @@
+# revision 17359
+# category Package
+# catalog-ctan /macros/latex/contrib/ieeepes
+# catalog-date 2010-03-06 17:23:09 +0100
+# catalog-license lppl
+# catalog-version 4.0
 Name:		texlive-ieeepes
 Version:	4.0
 Release:	1
@@ -45,6 +51,7 @@ Transactions journals.
 %doc %{_texmfdistdir}/doc/latex/ieeepes/ieeepes_doc.tex
 %doc %{_texmfdistdir}/doc/latex/ieeepes/ieeepes_skel.tex
 %doc %{_texmfdistdir}/doc/latex/ieeepes/vk.eps
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ Transactions journals.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
