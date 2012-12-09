@@ -52,3 +52,17 @@ Transactions journals.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.0-2
++ Revision: 752687
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.0-1
++ Revision: 718695
+- texlive-ieeepes
+- texlive-ieeepes
+- texlive-ieeepes
+- texlive-ieeepes
+
