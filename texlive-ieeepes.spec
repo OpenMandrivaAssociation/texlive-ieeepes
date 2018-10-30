@@ -6,7 +6,7 @@
 # catalog-version 4.0
 Name:		texlive-ieeepes
 Version:	4.0
-Release:	10
+Release:	11
 Summary:	IEEE Power Engineering Society Transactions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ieeepes
