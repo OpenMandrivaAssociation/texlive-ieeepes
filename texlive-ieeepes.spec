@@ -1,6 +1,6 @@
 Name:		texlive-ieeepes
 Version:	17359
-Release:	1
+Release:	2
 Summary:	IEEE Power Engineering Society Transactions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ieeepes
