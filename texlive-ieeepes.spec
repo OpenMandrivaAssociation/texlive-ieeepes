@@ -3,7 +3,7 @@ Version:	17359
 Release:	2
 Summary:	IEEE Power Engineering Society Transactions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ieeepes
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ieeepes
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ieeepes.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ieeepes.doc.r%{version}.tar.xz
